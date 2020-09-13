@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Flexbox Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+
+    <header id="header" class="group">
+      <div id="text" class="item">
+        <h1>Web Development</h1>
+        <h2>by Frank Schweikhardt</h2> 
+      </div>
+      <nav>
+        <ul id="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <main>
+        <!--Section 1 is photos and text at the top ( 2 items - photo and into section) -->
+        <section id="home" class="sectionOne">
+          <div class="group">
+            <div class="item">
+              <img src="images/frank.jpg" alt="Frank's face"/>
+            </div>
+            <div class="item">
+              <h2>Hello</h2>
+              <p>My life journey has led me to the exciting world of coding, developing websites, and creating digital tools. My background is in photography and international development and I am excited to combine these skills to be a part in making the world a better place. I am based out of beautiful Bloomington Indiana, but love traveling around the world, especially Southeast Asia!</p>
+            </div>
+          </div>
+        </section>
+        <!--Section 2 is text with photo ( 2 items - photo and about me section  )-->
+        <section id="about" class="sectionTwo">
+          <div class="group">
+            <div class="itemDouble">
+              <h2>About Me</h2>
+              <p>After recieving a degree in philosphy, my desire was to play music, make friends, and explore the world. These are wonderful asperations, but I eventually learned that I also needed tangable skills to solve problems big and small. I love web development because people from all over the world can unite together. Whether it is creating tools and interfaces for local business, or organizing data for a non profit, location does not hinder ones ability to engage.</p>
+              <br>
+              <p>I can't think of anything that blends so well with other interests. There is a software component to everything, and with the drive to improve and integrate, our world will keep changing and improving.</p>
+              <br>
+              <p>While I am only a Jr level developer, I have the desire to work with a team and advance my skills. My background in digital imagery is a complimentary skill that can be an asset to your team and organization.</p>
+            </div>
+            <div class="item">
+              <img src="images/frank-serious.jpg" alt="Frank serious"/>
+            </div>
+          </div>
+        </section>
+        <hr>
+      <!--Skills-->
+        <section id="skills">
+          <div id="groupSkills" class="groupSkills"
+            <div class="item">
+              <h2 class="itemSkills">//  Skills...</h2>
+            </div>
+          </div>
+        </section> 
+        <section id="logos">
+          <div class="group">
+            <div class="item">
+              <img src="images/logos/javaScript-logo.png" alt=".js logo"/>
+            </div>
+            <div class="item">
+              <img src="images/logos/html-logo.png" alt="html logo"/>
+            </div>
+            <div class="item">
+              <img src="images/logos/css-logo.png" alt="css logo"/>
+            </div>
+            <div class="item">
+              <img src="images/logos/wordpress-logo.png" alt="wordpress logo"/>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <!--whitespace section 1 item-->
+        <section class="whitespace">
+          <div class="group">
+            <div class="item">
+              <h2>Portfolio of Web Development</h2>
+            </div>
+          </div>
+        </section>
+        <!--Section 5 is the Portfolio Section with ( 4 items in two rows - project section) -->
+        <section id="portfolio" class="sectionFive">
+          <div class="group">
+            <div class="item">
+              <a href="https://www.wanderingheartphoto.com" target="_blank">
+                <img src="images/portfolio-1.jpg" alt="Wandering Heart Photography"/>
+              </a>
+              <h3>
+                <a href="https://www.wanderingheartphoto.com" target="_blank">Wandering Heart Photography</a>
+              </h3>
+              <p>Wordpress website for my wedding photography business.</p>
+            </div>
+            <div class="item">
+              <a href="https://schweikhardt.photo" target="_blank">
+                <img src="images/portfolio-2.jpg" alt="Schweikhardt Photography"/>
+              </a>
+              <h3>
+                <a href="https://schweikhardt.photo" target="_blank">Schweikhardt Photography</a>
+              </h3>
+              <p>Squarespace website for my event and real estate photography business.</p>
+            </div>
+          </div>
+          <div class="group">
+            <div class="item">
+              <a href="https://www.sellingbloomingtonbystorm.com" target="_blank">
+                <img src="images/portfolio-3.jpg" alt="Bruce Storm Real Estate"/>
+              </a>
+              <h3>
+                <a href="https://www.sellingbloomingtonbystorm.com" target="_blank">Bruce Storm Real Estate</a>
+              </h3>
+              <p>Real estate and management Squarespace site I built for a business in Bloomington Indiana.</p>
+            </div>
+            <div class="item">
+              <a href="https://www.sellingbloomingtonbystorm.com" target="_blank">
+                <img src="images/portfolio-4.jpg" alt="Bruce Storm Real Estate"/>
+              </a>
+              <h3>
+                <a href="https://www.sellingbloomingtonbystorm.com" target="_blank">Frank's Next Great Project</a>
+              </h3>
+              <p>Placeholder description text for my next great web project!</p>
+            </div>
+          </div>
+        </section>
+        <!--Section 4 is text ( 2 items - contact section )-->
+        <hr>
+        <section id="contact">
+          <h2>Contact</h2>
+          <div class="group">
+            <div class="item">
+              <form action=""https://formspree.io/schweikhardt.web@gmail.com" method="POST">
+                <label for="user-name">Name:</label>
+                <input id="user-name" type="text" name="name">
+    
+                <label for="user-email">Email:</label>
+                <input id="user-email" type="text" name="email">
+    
+                <label for="user-message">Message:</label>
+                <textarea id="user-message" name="message"></textarea>
+                <button type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="item">
+                <h3>Get in touch!</h3>
+                <ul>
+                  <li><a href="https://www.linkedin.com/in/frank-schweikhardt-40864815/" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://github.com/fschweikhardt" target="_blank">Github</a></li>
+                  <li><a href="mailto:hello@schweikhardt.photo" target="_blank">Send an ol' fashion email!</a></li>
+                </ul>
+            </div>
+          </div>
+        </section>
+       <!--end of main-->
+      </main>
+      <footer>
+        <h3>Owned and maintained by Frank Schweikhardt LLC. Copyright 2020. All right's reserved. </h3>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

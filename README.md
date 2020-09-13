@@ -1,2 +1,1 @@
-# portfolio
-Personal portfolio built with flexbox
+#   READ ME flexbox portfolio
