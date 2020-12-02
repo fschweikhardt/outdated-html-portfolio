@@ -1,1 +1,1 @@
-#   READ ME flexbox portfolio
+#   READ ME Frank Schweikhardt web development portfolio
